@@ -1,0 +1,1 @@
+# SyetemdLike-CLI-StatusIndicator
