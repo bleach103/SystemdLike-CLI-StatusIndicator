@@ -186,6 +186,4 @@ class Sindicator(object):
             self.__endPROG()
             self.displayWARN(self.__currentMsg)
         elif status == Staus.INPROGRESS:
-            # self.__endPROG()
-            # self.displayPROG(self.__currentMsg)
             pass
