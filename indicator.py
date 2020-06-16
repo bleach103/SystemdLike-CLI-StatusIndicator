@@ -7,7 +7,7 @@ We provide four styles of status include OK/FAILED/PASS/WARN/InProgress and also
 support black&white style mode for some old console like Windows 7‘s cmd you can
 watch the demo at github page.
 (https://github.com/bleach103/SystemdLike-CLI-StatusIndicator/tree/master)
-This module followed LGPL v2.1 License
+This module followed  License
 """
 
 import sys
@@ -163,7 +163,7 @@ class Sindicator(object):
             self.__updater.join()
             self.__updater = None
 
-    def updateStatus(self, status, msg=""):
+    def updateStatus(self, status=Staus.INPROGRESS, msg=""):
 
         if msg != "":
             self.__lastMsgLen = len(self.__currentMsg)
